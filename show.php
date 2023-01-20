@@ -1,7 +1,7 @@
 <?php
 $name = $_GET["name"];
-$num = $_GET["num"];
 $gender = $_GET["gender"];
+$num = $_GET["num"];
 $status = $_GET["status"];
 
 if ($gender == "female") {
