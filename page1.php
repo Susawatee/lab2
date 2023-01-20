@@ -6,12 +6,12 @@
     <h1>รับข้อมูลและแสดงผล</h1>
     <form action="show.php" method="get" style="margin-left: 80px;">
         ชื่อ:<input type="text" name="name"><br>
-        การุณาระบุเพศ:
+        กรุณาระบุเพศ:
         <select name="gender">
-            <option value="male">หญิง</option>
-            <option value="female">ชาย</option>
+            <option value="female">หญิง</option>
+            <option value="male">ชาย</option>
         </select><br>
-        การุณาใส่อายุ:
+        กรุณาใส่อายุ:
         <input type="number" name="num" style="width: 40px;"><br>
         สถานะ:
         <select name="status">
