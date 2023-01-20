@@ -1,10 +1,10 @@
 <?php
 $name = $_GET["name"];
-$gender = $_GET["gender"];
 $num = $_GET["num"];
+$gender = $_GET["gender"];
 $status = $_GET["status"];
 
-if ($gender == "male") {
+if ($gender == "female") {
     if ($num <= 15)
         $title = "เด็กหญิง";
     else
@@ -19,7 +19,7 @@ if ($gender == "male") {
         $title = "นาย";
 }
 
-if ($gender == "male") {
+if ($gender == "female") {
     $gen = "หญิง";
 } else
     $gen = "ชาย";
